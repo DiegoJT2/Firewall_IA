@@ -10,7 +10,7 @@ from base_datos import (
     contar_registros_ip,
     obtener_registros_ip
 )
-from ia_detectora import DetectorIA
+from ia_detector import DetectorIA
 from remote_apps import REMOTE_APPS
 from utils import obtener_ip_local
 

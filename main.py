@@ -6,7 +6,7 @@ import time
 from interfaz_gui import FirewallGUI, verificar_comportamiento_lista_blanca
 from base_datos import inicializar_db
 from monitor import iniciar_monitoreo
-from ia_detectora import DetectorIA
+from ia_detector import DetectorIA
 
 logging.basicConfig(
     filename="firewall.log",

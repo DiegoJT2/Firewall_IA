@@ -294,7 +294,7 @@ class FirewallGUI(tk.Tk):
     def _aplicar_feedback_ia(self, reg, confiable):
         # Asume orden: ID, IP, País, Compañía, Puerto, Protocolo, Motivo, Score IA, Feedback, Fecha, Estado, Origen, Aplicación
         try:
-            from ia_detectora import DetectorIA
+            from ia_detector import DetectorIA
             detector_ia = self.monitor.detector_ia if self.monitor else None
             if not detector_ia:
                 messagebox.showerror("Feedback IA", "No se encontró la IA activa.")

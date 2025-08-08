@@ -179,3 +179,23 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# --- firewall_ia specific exclusions ---
+
+# SQLite and other database files
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.db-journal
+
+# JSON configuration files
+*.json
+
+# Pickle serialized files
+*.pkl
+
+# Internal Python scripts (do not upload to repo)
+remote_apps.py
+ia_detector.py
+remote_detector.py
+unusual_proceses.py
